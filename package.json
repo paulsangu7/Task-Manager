@@ -6,7 +6,7 @@
   "homepage": "https://paulsangu7.github.io/task-manager",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node_modules/.bin/vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -31,5 +31,8 @@
     "postcss": "^8.4.23",
     "autoprefixer": "^10.4.14",
     "gh-pages": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

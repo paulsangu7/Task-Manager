@@ -73,3 +73,6 @@ src/
 3. Delete a task by clicking the ✖ button.
 
 4. Filter tasks using the buttons: All, Active, Completed.
+
+
+My Vercel link is: https://task-manager-lilac-five.vercel.app/
